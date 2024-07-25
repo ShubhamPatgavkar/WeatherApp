@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.SearchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.SearchBox h2 {
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.SearchBox form {
+    width: 85%;
+}
+
+.SearchBox .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.SearchBox .MuiButton-contained {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.SearchBox .MuiButton-contained:hover {
+    background-color: #0056b3;
+}
+
+.SearchBox p {
+    margin-top: 15px;
+    color: #e74c3c;
+    font-weight: 500;
+}

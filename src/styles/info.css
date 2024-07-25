@@ -1,0 +1,25 @@
+.cardContainer{
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+ 
+}
+/* info.css */
+.cardContainer {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+}
